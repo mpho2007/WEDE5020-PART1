@@ -50,8 +50,8 @@ function initEnquiryFormValidation() {
             const selectedService = document.getElementById('service').options[document.getElementById('service').selectedIndex].text;
 
             showFeedback(
-                `Thank you, ${customerName}! Your enquiry regarding "${selectedService}" has been received. Our team at Apex Auto Repair will contact you shortly.`,
-                'success'
+            `thank you, ${customerName}! your enquiry regarding "${selectedService} has been received.our team at apex auto repair will contact you shortly.`,
+            `success`   
             );
 
             form.reset();
